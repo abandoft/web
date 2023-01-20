@@ -1,5 +1,15 @@
-theme: minima
+# Site settings
+title: Abandoft Studio
+description: "Abandoft Studio Webpage"  
+baseurl: ""
+url: "http://www.abandoft.com"  
 
+# About/contact
+owner: 
+  name: Abandoft Studio
+  email: abandoft@gmail.com
+
+theme: minima
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -8,6 +18,12 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
   input: GFM
+
+# Defaults for posts
+defaults:
+    scope: 
+      path: ""
+      type: "posts"
 
 # HTML Compression
 compress_html:
