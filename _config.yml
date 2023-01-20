@@ -3,6 +3,18 @@ theme: minima
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 15
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: [jekyll-paginate]
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  input: GFM
+
+# HTML Compression
+compress_html:
+  clippings               : all
+  endings                 : all
+  comments                : ["<!-- ", " -->"]
+  blanklines              : true
+  profile                 : false
+  ignore:
+  envs                    : [local]
